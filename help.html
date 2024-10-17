@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - Mental Embrace</title>
+    <link rel="stylesheet" href="help.css">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="logo">
+                <img src="image/logo.png" alt="Mental Embrace Logo" aria-label="Mental Embrace Logo">
+            </div>
+            <h1 class="site-title">Mental Embrace</h1>
+            <nav class="nav" role="navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="statuscheck.html">Status Check</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="help.html" class="active">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="help-section">
+            <h2>Need Assistance?</h2>
+            <p>If you're facing challenges and need help, please reach out to us. We're here for you.</p>
+
+            <form action="https://api.web3forms.com/submit" method="POST" id="help-form">
+                <input type="hidden" name="access_key" value="62061595-8983-41d7-abdd-92f08282af1f" />
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Describe your issue..." required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="emergency-contact">
+            <h3>Emergency Contact</h3>
+            <ul>
+                <li><strong>Phone:</strong> <a href="tel:+9779863526673">+977-9863526673</a></li>
+                <li><strong>Email:</strong> <a href="mailto:help@mentalembrace.com">help@mentalembrace.com</a></li>
+                <li><strong>Address:</strong> Kusunti, Lalitpur, Nepal</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mental Embrace. All Rights Reserved.</p>
+        <p><a href="contact.html">Contact Us</a> | <a href="terms.html">Terms of Service</a></p>
+    </footer>
+
+    <script src="help.js"></script>
+</body>
+</html>
